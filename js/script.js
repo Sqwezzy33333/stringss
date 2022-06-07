@@ -5,19 +5,19 @@ let wrapper = document.querySelector('.js-wrapper');
 let jsSum = document.querySelector('.js-sum');
 let deleteBtn = document.querySelector('.deleteBtn');
 
-function addNumber(number){
+function addNumber(number) {
    strings.push(number);
 }
 
-function sum(array){
+function sum(array) {
    var result = 0;
-   for(let i = 0; i < array.length; i++){
+   for (let i = 0; i < array.length; i++) {
       result += array[i];
    };
    return result;
 }
 
-function render(){
+function render() {
    let html = '';
    strings.forEach((number) => {
       html += `<div>${number}</div>`;
@@ -25,7 +25,7 @@ function render(){
    wrapper.innerHTML = html;
 }
 
-function renderSum(){
+function renderSum() {
    let htmlSum = '';
    let result = sum(strings);
    htmlSum += `<div>Сумма строк: <b>${result}</b></div>`
@@ -47,7 +47,7 @@ deleteBtn.addEventListener('click', () => {
    render();
 });
 
-function deleteItems (array){
+function deleteItems(array) {
    array.length = 0;
 
 };
