@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/*Обнуление*/
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+html,
+body {
+  height: 100%;
+  background-color: white;
+  text-shadow: 0px 1px 0px #756262;
+  font-size: 40px;
+  background-color: rgb(183, 221, 223);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper{
+   padding-top: 200px;
+}
+
+.container {
+  max-width: 600px;
+  padding: 0px 20px;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  border: 5px solid white;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: rgb(81, 128, 87);
+  color: rgb(228, 216, 216);
+}
+
+.deleteBtn , .js-btn , .js-input{
+   padding: 10px;
+   text-transform: uppercase;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-weight: 900;
+   border: 1px solid black;
+}
+
+.js-wrapper{
+   padding-top: 15px;
+}
+
+.js-wrapper div{
+   margin-bottom: 10px;
+   font-size: 25px;
+   border-bottom:  1px solid black;
+   color: gold;
+}
+
+.wrapperDelete{
+   margin-bottom: 20px;
+}
+.js-sum b{
+   color: gold;
+   font-size: 45px !important;
+}
+.js-sum{
+   font-size: 30px;
+}
